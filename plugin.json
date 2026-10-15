@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "kittycat1474@gmail.com",
+    "name": "a A"
+  },
+  "description": "Turn scripts into production-ready cinematic shotlists with locked continuity, adaptive pacing, and AI-generation-aware direction.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use this script to create a complete cinematic shotlist.",
+          "Continue this shotlist without changing any existing Shot IDs.",
+          "Review this scene for continuity conflicts and propose director additions before drafting shots."
+        ],
+        "developerName": "a A",
+        "displayName": "AI Cinematic Shotlist Director",
+        "longDescription": "Transforms scripts into complete 16:9 cinematic shotlists with Chinese visual direction, English dialogue and screen text, stable shot IDs, continuity control, and selective generation-risk notes.",
+        "shortDescription": "Direct cinematic AI shotlists"
+      }
+    }
+  },
+  "name": "ai-cinematic-shotlist-director",
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Cinematic Shotlist Director"
+  short_description: "Build complete continuity-safe cinematic shotlists"
+  default_prompt: "Use $ai-cinematic-shotlist-director to turn my script into a complete cinematic shotlist."
+policy:
+  allow_implicit_invocation: true
